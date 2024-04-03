@@ -83,7 +83,7 @@ nav ul li a{
 }
 
  nav ul li a:hover{
-    color: red;
+    color: blue;
  }
 
  #about{
@@ -97,3 +97,66 @@ nav ul li a{
  .images:hover .boy{
     left: 45%;
  }
+
+ .hobby  {
+    width: 100%;
+    height: 600px;
+    display: grid;
+    place-items: center;
+  }
+  
+  .hobby img {
+    height: 200px;
+    transition: 0.5s ease;
+
+  }
+  
+  .hobby img:hover{
+    border-radius: 12px;
+    transform: translateY(-12px);
+    transform: scale(1.5);
+  }
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+#contact {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 12px;
+}
+
+footer button:hover {
+    background-color: #0056b3;
+}
+
+.contact {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.contact li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.contact li img {
+    width: 40px;
+    height: auto;
+}
